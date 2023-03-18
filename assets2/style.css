@@ -6,10 +6,10 @@ body {
 
 }
 
-.container {
+.container li, ul {
 
-    border: 1px solid black;
-    width: fit-content;
+    margin-left: 10px;
+    background-color: #f5f1f0;
 
 }
 
@@ -19,8 +19,12 @@ body {
 
     border: 1px solid black;
     padding: 10px;
+    background-color: rgb(228, 238, 238);
 
 }
+
+
+
 
 
 .list-group {
