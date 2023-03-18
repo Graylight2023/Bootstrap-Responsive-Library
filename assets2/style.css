@@ -20,7 +20,7 @@ body {
     padding: 10px;
     background-color: rgb(228, 238, 238);
     box-shadow: 12px 12px 12px rgb(131, 119, 119);
-
+    border-radius: 20px;
 }
 
 
@@ -34,6 +34,7 @@ body {
     padding: 15px;
     margin: 2px;
     box-shadow: 10px 5px 5px rgb(131, 119, 119);
+    border-radius: 20px;
 }
 
 
