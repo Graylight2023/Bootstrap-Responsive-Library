@@ -10,10 +10,7 @@
 
     background-color: rgb(228, 238, 238);
 
-
 }
-
-
 
 span .tagPrice {
 
@@ -50,10 +47,10 @@ body {
 
     font-family: Arial, 'Noto Sans JP', sans-serif;
     background: linear-gradient();
-    background-attachment: fixed;
+    /* background-attachment: fixed;
     background-image: url(assets/images/background-image1.jpg);
     background-repeat: no-repeat; 
-    background-size: cover; background-position: center; 
+    background-size: cover; background-position: center;  */
     height: 100vh;
 } 
 
@@ -87,7 +84,7 @@ body {
     transform: scale(1.15);
 
 
-}
+} 
 
 .card {
 
@@ -111,6 +108,44 @@ body {
 
 
 }
+
+
+
+.img-container {
+
+
+    position: relative;
+
+}
+
+.image {
+
+    transition: .5s ease;
+    backface-visibility:hidden;
+
+
+}
+
+.overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img-container:hover .image {
+
+    opacity: 0.2;
+
+}
+
+img.img-container:hover .overlay {
+
+    opacity: 1;
+}
+
 
 
 

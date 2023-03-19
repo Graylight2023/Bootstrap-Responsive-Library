@@ -17,23 +17,20 @@
   </head>
   <body>
 
-    <!-- <div class="d-flex justify-content-center align-items-center" style="background-image: url(assets/images/background-image1.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; height: 100vh;">
-    </div>  -->
     <nav class="navbar text-white text-bg-secondary navbar-expand-lg sticky-top"> <!-- Fixed top-->
-        <div class="container-fluid">
+        <div class="container">
           <!-- <a class="navbar-brand" href="#"><i class="fa-solid fa-book"></i>Booklets</a> -->
 
           <nav class="navbar navbar-light">
-            <a class="navbar-brand p-0" href="#">
-              Booklets
-            </a>
+            <a class="navbar-brand p-0 text-light" href="#">
+              <i class="fa-solid fa-book"></i> Booklets</a>
           </nav>
           <button class="navbar-toggler text-secondary bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
-              <li class="nav-item">
+              <li class="nav-itemtext-light">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
@@ -65,7 +62,7 @@
     <!-- END NAV -->
 
 
-    <!-- CONTENT -->
+    <!-- Carousel Start -->
 
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -80,21 +77,27 @@
           <div class="carousel-caption top-0 mt-4">    <!--d-none d-md-block / for responsiveness-->
             <p class="text-uppercase fs-3 mt-5">Welcome to Our Home Page</p>
             <p class="display-1 fw-bolder text-capitalize">Available Books</p>
-            <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
-              data-bs-target="#">See More</button>
+            <button class="btn btn-primary px-4 py-2 fs-5 mt-3" data-bs-toggle="modal"
+              data-bs-target="#">Learn More</button>
             </div>       
         </div>
+
         <div class="carousel-item c-item">
           <img src="assets/images/background-image2.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption top-0 mt-4 d-none d-md-block">
-          <p class="text-uppercase fs-3 mt-5">Welcome to Our Home Page</p>
-          <p class="display-1 fw-bolder text-capitalize">3 Available tours</p>
-          <button class="btn btn-primary px-10 py-2 fs-5 mt-5" data-bs-toggle="modal"
-            data-bs-target="#">Book Page</button>
+          <div class="carousel-caption top-0 mt-4">
+          <p class="text-uppercase fs-4 mt-5">Want to Know About the authors?</p>
+          <p class="display-4 fw-bolder text-capitalize">Our Famous Authors</p>
+          <button class="btn btn-primary px-10 py-2 fs-5 mt-3" data-bs-toggle="modal"
+            data-bs-target="#">See More</button>
           </div>
         </div>
         <div class="carousel-item c-item">
           <img src="assets/images/background-image4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption top-0 mt-4">
+          <p class="text-uppercase fs-4 mt-5">why Choose Booklets?</p>
+          <p class="display-5 fw-bolder text-capitalize">Booklet's Achievements</p>
+          <button class="btn btn-primary px-10 py-2 fs-5 mt-3" data-bs-toggle="modal"
+            data-bs-target="#">FAQS</button>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -106,55 +109,88 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+ </div>
+   <!-- Carousel END -->
 
-    <!-- END CAROUSEL-->
 
-   
-   
        <div class="container-fluid">
         <div class="row text-center">
-
           <h1>Want to know more about Booklets?</h1>
           <p class="font-light-weight">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
-    
         </div>
 
         <p class="display-5 text-center">FEATURED BOOKS</p>
       
-      
-        <div class="row d-flex flex-lg-row flex-md-row flex-sm-column align-items-center mt-5">
-          <div class="card text-bg-secondary text-center mt-5" style="width: 20%;">
-            <img src="assets/images/image1.jpg" class="card-img" alt="...">
-            <div class="card-img">
-              <h5 class="card-title">To Kill A Mockingbird</h5>
-              <p class="card-text"><small>Harper Lee</small></p>
-            </div>
-          </div>
-             <div class="card text-bg-secondary text-center mt-5" style="width: 20%;">
-            <img src="assets/images/image2.jpg" class="card-img" alt="...">
-            <div class="card-img">
-              <h5 class="card-title">The Great Gatsby</h5>
-              <p class="card-text"><small>F.Scott Fitzgerald</small></p>
-            </div>
-          </div>
-             <div class="card text-bg-secondary text-center mt-5" style="width: 20%;">
-            <img src="assets/images/image3.jpg" class="card-img" alt="...">
-            <div class="card-img">
-              <h5 class="card-title">1984</h5>
-              <p class="card-text">George Orwell</p>
-            </div>
-          </div>
-          <div class="card text-bg-secondary text-center mt-5" style="width: 20%;">
-            <img src="assets/images/image5.jpg" class="card-img" alt="...">
-            <div class="card-img">
-              <h5 class="card-title fs-5">Adventures of Huckleberry</h5>
-              <p class="card-text"><small>Mark Twain</small></p>
-            </div>
-          </div>
-        </div>
+        <section class="gallery">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-4 mb-5">
+                      <div clsss="card">
+                          <div class="img-container">
+                              <img src="assets/images/image1.jpg" alt="" class="image card-img-top">
+                          </div>
+  
+                              <div class="card-body text-center">
+                                  <h5 class="card-title">To Kill A Mockingbird</h5>
+                                  <h6 class="card-subtitle mb-2 text-muted">$9.99</h6>
+                                  <p class="card-text text-justify">To Kill a Mockingbird is a novel by the American author Harper Lee. It was published in 1960 and was instantly successful. In the United States, it is widely read in high schools and middle schools.</p>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-lg-4 mb-3">
+                        <div clsss="card">
+                            <div class="img-container">
+                                <img src="assets/images/image5.jpg" alt="" class="image card-img-top">
+                            </div>
+    
+                                <div class="card-body text-center text-black">
+                                    <h5 class="card-title">Adventures of Huckleberry</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">$9.99</h6>
+                                    <p class="card-text">Adventures of Huckleberry Finn is a novel by American author Mark Twain, which was first published in the United Kingdom in December 1884 and in the United States in February 1885.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-3">
+                          <div clsss="card">
+                               <div class="img-container">
+                                  <img src="assets/images/image3.jpg" alt="" class="image card-img-top">
+                              </div>
+     
+                                 <div class="card-body text-center">
+                                   <h5 class="card-title">1984</h5>
+                                   <h6 class="card-subtitle mb-2 text-muted">$8.99</h6>
+                                   <p class="card-text">Nineteen Eighty-Four (also published as 1984) is a dystopian social science fiction novel and cautionary tale by English writer George Orwell.</p>
+                                 </div>
+                             </div>
+                         </div>
+                      
+  
+                  <div class="col-lg-4 mb-3">
+                       <div clsss="card">
+                            <div class="img-container">
+                               <img src="assets/images/image2.jpg" alt="" class="image card-img-top">
+                           </div>
+  
+                              <div class="card-body text-center">
+                                <h5 class="card-title">The Great Gatsby</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">$39.99</h6>
+                                <p class="card-text">The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan.
+                                </p>
+                              </div>
+                          </div>
+                      </div>
+  
+  
+              
+                   </div>
+              </div>
+      </section>
 
 <br><br>
 
+      <div class="container">
         <div class="row d-flex flex-lg-row flex-md-column flex-sm-column d-flexwrap justify-content-center align-items-center">
           <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
             <div class="card align-items-center text-center" style="width: 18rem;">
@@ -166,9 +202,9 @@
                 <span>$9.99</span>
                 <div class="Buttons">
                 </button></a>
-                <a href="#" class="card-link"><button type="button" class="btn btn-secondary">Add to Cart</button></a>
-                <a href="#" style="margin: 5px 0;" class="card-link"><button type="button" class="btn btn-secondary" style="margin: 5px 0;">Add to Wishlist</button></a>
-                <a href="CheckoutForm.html" style="margin: 0;" class="card-link"><button type="button" class="btn btn-success">Buy Now</button></a>
+                <a href="#" class="card-link"><button type="button" class="btn btn-secondary"><i class="fa-regular fa-star text-info"></i> Add to Cart</button></a>
+                <a href="#" style="margin: 5px 0;" class="card-link"><button type="button" class="btn btn-secondary" style="margin: 5px 0;"><i class="far fa-heart text-danger"></i> Add to Wishlist</button></a>
+                <a href="CheckoutForm.html" style="margin: 0;" class="card-link"><button type="button" class="btn btn-success"><i class="fa-solid fa-dollar-sign"></i> Buy Now</button></a>
               </div>
               </div>
             </div>
@@ -183,9 +219,9 @@
                 <span class="tagPrice">$39.99</span>
                 <div class="Buttons">
                 </button></a>
-                <a href="#" class="card-link"><button type="button" class="btn btn-secondary">Add to Cart</button></a>
-                <a href="#" style="margin: 5px 0;" class="card-link"><button type="button" class="btn btn-secondary" style="margin: 5px 0;">Add to Wishlist</button></a>
-                <a href="CheckoutForm.html" style="margin: 0;" class="card-link"><button type="button" class="btn btn-success">Buy Now</button></a>
+                <a href="#" class="card-link"><button type="button" class="btn btn-secondary"><i class="fa-regular fa-star text-info"></i> Add to Cart</button></a>
+                <a href="#" style="margin: 5px 0;" class="card-link"><button type="button" class="btn btn-secondary" style="margin: 5px 0;"><i class="far fa-heart text-danger"></i> Add to Wishlist</button></a>
+                <a href="CheckoutForm.html" style="margin: 0;" class="card-link"><button type="button" class="btn btn-success"><i class="fa-solid fa-dollar-sign"></i> Buy Now</button></a>
               </div>
               </div>
             </div>
@@ -200,9 +236,9 @@
                 <span>$8.99</span>
                 <div class="Buttons">
                   </button></a>
-                  <a href="#" class="card-link"><button type="button" class="btn btn-secondary">Add to Cart</button></a>
-                  <a href="#" style="margin: 5px 0;" class="card-link"><button type="button" class="btn btn-secondary" style="margin: 5px 0;">Add to Wishlist</button></a>
-                  <a href="CheckoutForm.html" style="margin: 0;" class="card-link"><button type="button" class="btn btn-success">Buy Now</button></a>
+                  <a href="#" class="card-link"><button type="button" class="btn btn-secondary"><i class="fa-regular fa-star text-info"></i> Add to Cart</button></a>
+                  <a href="#" style="margin: 5px 0;" class="card-link"><button type="button" class="btn btn-secondary" style="margin: 5px 0;"><i class="far fa-heart text-danger"></i> Add to Wishlist</button></a>
+                  <a href="CheckoutForm.html" style="margin: 0;" class="card-link"><button type="button" class="btn btn-success"><i class="fa-solid fa-dollar-sign"></i> Buy Now</button></a>
                 </div>
               </div>
             </div>
@@ -217,15 +253,15 @@
                 <span>$9.99</span>
                 <div class="Buttons">
                 </button></a>
-                <a href="#" class="card-link"><button type="button" class="btn btn-secondary">Add to Cart</button></a>
-                <a href="#" style="margin: 5px 0;" class="card-link"><button type="button" class="btn btn-secondary" style="margin: 5px 0;">Add to Wishlist</button></a>
-                <a href="CheckoutForm.html" style="margin: 0;" class="card-link"><button type="button" class="btn btn-success">Buy Now</button></a>
+                <a href="#" class="card-link"><button type="button" class="btn btn-secondary"><i class="fa-regular fa-star text-info"></i> Add to Cart</button></a>
+                <a href="#" style="margin: 5px 0;" class="card-link"><button type="button" class="btn btn-secondary" style="margin: 5px 0;"><i class="far fa-heart text-danger"></i> Add to Wishlist</button></a>
+                <a href="CheckoutForm.html" style="margin: 0;" class="card-link"><button type="button" class="btn btn-success"><i class="fa-solid fa-dollar-sign"></i> Buy Now</button></a>
               </div>
               </div>
             </div>
           </div>
         </div>
-
+      </div>
 
 
 
@@ -244,6 +280,7 @@
 
         <!-- flex-md-column flex-sm-column -->
 
+        <div class="container">
         <div class="row flex-lg-row flex-md-column flex-sm-column gx-0 mb-4 mb-lg-5 align-items-center d-flex">
           <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/images/Authors/F. Scott Fitzgerald.jpg" alt="..." style="width: 100%
           ;" /></div>
@@ -267,7 +304,7 @@
                  </div>
              </div>
             </div>
-
+          </div>
     
 
    
@@ -278,8 +315,9 @@
 
 <br>
 
-
+      
       <!-- Project One Row-->
+      <div class="container">
       <div class="row gx-0 mb-5 mb-lg-0 justify-content-center width-100">
           <div class="col-lg-6"><img class="img-fluid" src="assets/images/awards/awards.jpg" alt="..."style="width: 100%;"  /></div>
           <div class="col-lg-6">
@@ -289,13 +327,13 @@
                           <h4 class="text-white">Awards</h4>
                           <p class="text-white-50">Book Awards</p>
                           <ul class="awardlist text-white">
-                            <li>Goodreads Choice Award 4997 books</li>
-                            <li>RITA Award by Romance Writers of America 2258 books</li>
-                            <li>National Book Award Finalist 1767 books</li>
-                            <li>Vermont Golden Dome Book Award 1751 books</li>
-                            <li>Independent Publisher Book Award (IPPY)1417 books</li>
-                            <li>Lambda Literary Award1556 books</li>
-                            <li>Edgar Award1498 books</li>
+                            <li>Goodreads Choice Award | 4997 books</li>
+                            <li>RITA Award by Romance Writers of America | 2258 books</li>
+                            <li>National Book Award Finalist | 1767 books</li>
+                            <li>Vermont Golden Dome Book Award | 1751 books</li>
+                            <li>Independent Publisher Book Award (IPPY) | 1417 books</li>
+                            <li>Lambda Literary Award | 1556 books</li>
+                            <li>Edgar Award | 1498 books</li>
                           </ul>  
                           <p class="text-white-50">The Goodreads Choice Awards reflect what you and your friends are really reading. See all the 2022 Award Winners.
                           </p>
@@ -320,7 +358,7 @@
               </div>
           </div>
       </div>
-
+    </div>
 
       
  
@@ -541,7 +579,7 @@
     <!-- Section: Social media -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2023 Copyright:
-      <a class="text-white" href="#">BOOKLETS</a>
+      <a class="text-white" href="#"><i class="fa-solid fa-book"></i> BOOKLETS</a>
     </div>
   </div>
 </footer>
