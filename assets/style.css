@@ -1,20 +1,27 @@
+ @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Noto+Sans+JP:wght@300display=swap');
+
+
+
 /* carousel part */
 
 .card-body {
 
     background-color: #f5f1f0;
+    font-family: Arial, 'NOTO Sans JP', sans-serif;
 
 }
 
 .container-fluid {
 
     background-color: rgb(228, 238, 238);
+    font-family: Arial, 'NOTO Sans JP', sans-serif;
 
 }
 
 .body {
 
     background-color: rgb(228, 238, 238);
+    font-family: Arial, 'NOTO Sans JP', sans-serif;
 
 }
 
@@ -23,13 +30,6 @@ span .tagPrice {
 
 background-color: red;
 width: 100%;
-
-}
-
-.card title h5  {
-
-    font-size: small;
-
 
 }
 
@@ -44,9 +44,6 @@ width: 100%;
     flex-wrap: wrap
 }
 
-
- 
- @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Noto+Sans+JP:wght@300display=swap');
 
 
 
