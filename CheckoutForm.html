@@ -15,31 +15,47 @@
 </head>
 <body>
 
-  <nav class="navbar text-black text-bg-secondary navbar-expand-lg sticky-top"> <!-- Fixed top-->
+  <nav class="navbar text-white text-bg-secondary navbar-expand-lg sticky-top"> <!-- Fixed top-->
     <div class="container">
+      <!-- <a class="navbar-brand" href="#"><i class="fa-solid fa-book"></i>Booklets</a> -->
+
       <nav class="navbar navbar-light">
-        <a class="navbar-brand p-0 text-light" href="#"><i class="fa-solid fa-book"></i>
-          Booklets
-        </a>
+        <a class="navbar-brand p-0 text-light" href="#">
+          <i class="fa-solid fa-book"></i> Booklets</a>
       </nav>
-      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler text-secondary bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
-          <li class="nav-item bg-">
-            <a class="nav-link active bg-secondary" aria-current="page" href="#">Home</a>
+          <li class="nav-itemtext-light">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active bg-secondary" aria-current="page" href="#">Services</a>
+            <a class="nav-link active" aria-current="page" href="#">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active bg-secondary" aria-current="page" href="#">Contact</a>
+            <a class="nav-link active" aria-current="page" href="#">Contact</a>
           </li>
         </ul>
+        <form class="d-flex" role="search">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle my-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+             Filter
+            </button>
+             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">History</a>
+              <a class="dropdown-item" href="#">Fictional</a>
+              <a class="dropdown-item" href="#">Drama</a>
+            </div> 
+          </div>
+          <input class="form-control mb-1 mt-1 px-2 mx-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn text-white text-bg-secondary mb-1 mt-1 px-2" type="submit">Search</button>
+        </form>
       </div>
     </div>
   </nav>
+
 
 
 
